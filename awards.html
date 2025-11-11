@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awards page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="awards.css">
+    <script src="script.js" defer></script>
+    <script src="hamburger.js" defer></script>
+    <script src="footer.js" defer></script>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <script src="https://kit.fontawesome.com/1daa700264.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bitcount+Grid+Double:wght@100..900&family=Bungee&family=Kumar+One+Outline&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mozilla+Headline:wght@541&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div>
+                <a href="index.html">
+                    <img src="images/logo.png" alt="" class="iconImg">
+                </a>
+            </div>
+            <ul class="ul">
+                <li><a href="earlyLife.html">Early life</a></li>
+                <li><a href="professionalCareer.html">Professional Career</a></li>
+                <li><a href="awards.html" class="awar">Awards & Honours</a></li>
+                <li><a href="gallery.html">Gallery</a>
+                </li>
+            </ul>
+            <button class="hamburgerIcon" id="menuBtn" aria-label="Toggle menu" aria-expanded="false" style="background:transparent;border:0;padding:6px;cursor:pointer;">
+                    <div class="hamIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true" role="img">
+    <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <path id="line1" d="M3 6h18" />
+      <path id="line2" d="M3 12h18" />
+      <path id="line3" d="M3 18h18" />
+    </g>
+  </svg>
+                    </div>
+                    <div class="crossIcon">
+                        <!-- Rounded/thicker close icon (32x32) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" aria-hidden="true" role="img">
+  <line x1="6" y1="6" x2="26" y2="26" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+  <line x1="26" y1="6" x2="6" y2="26" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+</svg>
+
+                    </div>
+  
+</button>
+
+        </nav>
+    </header>
+
+    <main id="main">
+        <div class="award-header">
+            <h1>Awards and Honours</h1>
+        </div>
+
+        <div class="award-containers">
+
+            <div class="award-container fade-left">
+                <div class="award imgDiv">
+                    <img src="images/ramnath kovindth with madagaskar award2.jpg">
+                </div>
+                <div class="award-detail award-content">
+                    <h1>National Order of Madagascar </h1>
+                    <h3>Grand Cross (2nd Class) — 14 March 2018</h3>
+                    <h3>Madagascar</h3>
+                    <p>Recognized for exceptional service to the nation in various capacities.</p>
+                    <button onclick="popUp(0)" class="pop-btn">View More</button>
+                </div>
+            </div>
+
+
+
+            <div class="award-container1 card fade-down">
+                <div class="award imgDiv">
+                    <img src="images/order of independence.png" alt="">
+                </div>
+
+                <div class="award-detail1 award-content1 award-content">
+                    <h1>Order of Independence </h1>
+                    <h3>Grand Collar — 8 April 2018</h3>
+                    <h3>Equatorial Guinea</h3>
+                    <p>This award is one of the highest distinctions granted to heads of state and significant figures.
+                    </p>
+                    <button onclick="popUp(1)" class="pop-btn">View More</button>
+                </div>
+            </div>
+
+            <div class="award-container fade-right">
+                <div class="award imgDiv">
+                    <img src="images/order of lion3.jpg">
+                </div>
+                <div class="award-detail award-content">
+                    <h1>Order of the Lion </h1>
+                    <h3>Collar — 9 April 2018</h3>
+                    <h3>Eswatini</h3>
+                    <p>Eswatini's highest honor recognizing bravery and leadership.</p>
+                    <button onclick="popUp(2)" class="pop-btn">View More</button>
+                </div>
+
+            </div>
+
+
+
+            <div class="award-container fade-left">
+                <div class="award imgDiv">
+                    <img src="images/grand order of king Tomislav1.jpg">
+                </div>
+                <div class="award-detail award-content">
+                    <h1>Grand Order of King Tomislav</h1>
+                    <h3>26 March 2019</h3>
+                    <h3>Croatia</h3>
+                    <p>Highest state decoration of Croatia, awarded for exceptional contributions to the independence.
+                    </p>
+                    <button onclick="popUp(3)" class="pop-btn">View More</button>
+                </div>
+            </div>
+
+
+
+            <div class="award-container1 card fade-down">
+                <div class="award imgDiv">
+                    <img src="images/orderof the condor of the Andes1.jpg" alt="">
+                </div>
+
+                <div class="award-detail1 award-content1 award-content">
+                    <h1>Order of the Condor of the Andes </h1>
+                    <h3>Grand Collar — 26 March 2019</h3>
+                    <h3>Bolivia</h3>
+                    <p>This high honor from Bolivia recognizes distinguished services to the nation.</p>
+                    <button onclick="popUp(4)" class="pop-btn">View More</button>
+                </div>
+            </div>
+
+            <div class="award-container fade-right">
+                <div class="award imgDiv">
+                    <img src="images/national order of merit3.jpg">
+                </div>
+                <div class="award-detail award-content">
+                    <h1>National Order of Merit</h1>
+                    <h3>Grand Cross — 3 August 2019</h3>
+                    <h3>Guinea</h3>
+                    <p>A prestigious award granted by Guinea for exceptional meritorious service.</p>
+                    <button onclick="popUp(5)" class="pop-btn">View More</button>
+                </div>
+            </div>
+        </div>
+
+        <footer></footer>
+    </main>
+    <div class="popUp"></div>
+    <script>
+        let main = document.getElementById('main');
+        function popUp(ind) {
+            main.style.filter = "blur(5px) grayscale(50%)";
+            let popUp = document.querySelector('.popUp');
+            popUp.style.display = 'flex'
+            let obj = document.querySelectorAll('.award-content');
+            let award = document.querySelectorAll('.imgDiv')
+            award = award[ind].children[0];
+            if (ind == 0) {
+                var content = "The President of India received the Grand Cross 2nd Class of the National Order of Madagascar for his efforts in strengthening relations between India and Madagascar. This award honors his work in promoting friendship and cooperation between the two countries.";
+            }
+            else if (ind == 1) {
+                var content = "On 8 April 2018, the President of India received the Grand Collar of the Order of Independence from Equatorial Guinea for his work in improving relations between the two countries. This award shows respect and appreciation for his efforts in building friendship and cooperation internationally.";
+            }
+            else if (ind == 2) {
+                var content = "The President of India received the Collar of the Order of the Lion from Eswatini for his efforts in strengthening ties between India and Eswatini. This award recognizes his role in promoting friendship and cooperation between the two nations."
+
+            }
+            else if (ind == 3) {
+                var content = "The President of India received the Grand Order of King Tomislav from Croatia for his efforts in strengthening relations between India and Croatia. This award honors his work in promoting friendship and cooperation between the two countries."
+            }
+            else if (ind == 4) {
+                var content = "The President of India received the Grand Collar of the Order of the Condor of the Andes from Bolivia for his efforts in improving ties between India and Bolivia. This award recognizes his role in fostering friendship and collaboration."
+            }
+            else if (ind == 5) {
+                var content = "The President of India received the National Order of Merit from Guinea for his efforts in enhancing relations between India and Guinea. This award shows respect and appreciation for his work in building international friendship and cooperation."
+            }
+            let child = `<div class = "pop-img">
+                                <img src="${award.src}" alt="">
+                            </div>
+
+                            <div class="pop-up">
+                                    <i class="fa-solid fa-xmark" id="close"></i>
+                                    <h1>${obj[ind].children[0].innerText}</h1>
+                                    <h3>${obj[ind].children[1].innerText}</h3>
+                                    <h3>${obj[ind].children[2].innerText}</h3>
+                                    <p>${content}</p>  
+                            </div>`;
+
+            popUp.innerHTML = child;
+
+            let btn = document.getElementById("close");
+            btn.addEventListener("click", () => {
+                popUp.style.display = "none";
+                main.style.filter = "";
+            });
+        }
+
+    </script>
+</body>
+
+</html>

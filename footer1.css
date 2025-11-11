@@ -1,0 +1,38 @@
+footer{
+    width:100%;
+    padding:2% 5%;
+    position: relative;
+    top: 78px;
+    background-color: #ecddc9;
+}
+
+
+footer>div{
+    width:100%;
+    text-wrap: nowrap !important;
+}
+
+footer>div>div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 40px;
+}
+
+.SocialIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+.SocialIcons>div{
+    margin-right: 20%;
+}
+
+footer svg{
+    fill: #282120 !important;
+}
